@@ -1,0 +1,23 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "An Amazon-like storefront using MySQL, the MySQL NPM Package, and the Requirer Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewHeinke/Bamazon.git"
+  },
+  "author": "Andrew Heinke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewHeinke/Bamazon/issues"
+  },
+  "homepage": "https://github.com/AndrewHeinke/Bamazon#readme",
+  "dependencies": {
+    "inquirer": "^1.1.2",
+    "mysql": "^2.11.1"
+  }
+}
