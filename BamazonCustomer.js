@@ -36,10 +36,15 @@ function questions() {
   },
   {
     type:"input",
-    message: "How many would you like to purchase?",
+    message: "How many would you like to purchase? (Type Q to Quit)",
     name: "quantity"
   }
   ]).then(function(answers){
+    if (answers.quantity === 'Q') {
+      connection.end();
+      process.exit();
+      return;
+    }
     chosenItem = answers.idSelect;
     itemQuantity = answers.quantity;
 
